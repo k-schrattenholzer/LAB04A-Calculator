@@ -1,7 +1,7 @@
 
 // import functions and grab DOM elements
 
-import {add} from './utils.js';
+import { add } from './utils.js';
 
 const addEl1 = document.getElementById ('add-num1');
 const addEl2 = document.getElementById ('add-num2');
