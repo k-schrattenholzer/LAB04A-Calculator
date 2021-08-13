@@ -12,8 +12,7 @@
 
 <body>
     <header>
-        <div class="gutter-right logo">
-        </div>
+        <h1>rusty trusty calculator</h1>
     </header>
     <main>
         <section class="main-section">
@@ -23,7 +22,8 @@
             (plus)
             <input id='add-num2'>
             <button id='add-button'>add</button>
-            <span id='add-answer'></span>                    
+            <br>
+            <span class = 'answer' id='add-answer'></span>                    
             </div>
             <div class = 'subtraction'> 
             <h4>need to subtract one number from another?</h4>
@@ -31,7 +31,8 @@
             (less)
             <input id='sub-num2'>
             <button id='sub-button'>sub</button>
-            <span id='sub-answer'></span>                    
+            <br>
+            <span class = 'answer' id='sub-answer'></span>                    
             </div>
             <div class = 'multiplication'> 
             <h4>need to mutiply one number by another?</h4>
@@ -39,7 +40,8 @@
             (times)
             <input id='mult-num2'>
             <button id='mult-button'>mult</button>
-            <span id='mult-answer'></span>                    
+            <br>
+            <span class = 'answer' id='mult-answer'></span>                    
             </div>
             <div class = 'division'> 
             <h4>need to divide one number by another?</h4>
@@ -47,8 +49,20 @@
             (div by)
             <input id='div-num2'>
             <button id='div-button'>div</button>
-            <span id='div-answer'></span>                    
+            <br>
+            <span class = 'answer' id='div-answer'></span>                    
             </div>
+        </section>
+        <section class='counters'>
+                How many times have you added?
+                <div id="add-count"></div>
+                How many times have you subtracted?
+                <div id="sub-count"></div>
+                How many times have you multiplied?
+                <div id="mult-count"></div>
+                How many times have you divided?
+                <div id="div-count"></div>
+            </section>
         </section>
     </main>
     <footer>
